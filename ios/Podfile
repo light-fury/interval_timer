@@ -1,0 +1,29 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'interval_timer' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for interval_timer
+  pod 'Google-Mobile-Ads-SDK'
+  target 'interval_timer-tvOSTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'interval_timerTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
+
+target 'interval_timer-tvOS' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for interval_timer-tvOS
+
+
+end
